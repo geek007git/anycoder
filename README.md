@@ -127,4 +127,4 @@ anycoder/
 
 ## License
 
-[Add your license information here]
+[GPL rihts reserved by Shanthemach]
