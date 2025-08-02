@@ -2841,4 +2841,4 @@ with gr.Blocks(
     # Optionally, you can keep the old deploy_btn.click for the default method as a secondary button.
 
 if __name__ == "__main__":
-    demo.queue(api_open=False, default_concurrency_limit=20).launch(show_api=False, ssr_mode=True, mcp_server=False)
+    demo.launch()
