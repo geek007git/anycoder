@@ -461,7 +461,7 @@ DEMO_LIST = [
     }
 ]
 
-# HF Inference Client
+# HF Inference Client fetch
 HF_TOKEN = os.getenv('HF_TOKEN')
 if not HF_TOKEN:
     raise RuntimeError("HF_TOKEN environment variable is not set. Please set it to your Hugging Face API token.")
